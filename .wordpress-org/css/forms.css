@@ -1,0 +1,47 @@
+.sg-input, .sg-captcha {
+    margin-bottom: 20px;
+}
+
+.sg-input label {
+    display: block;
+}
+
+.sg-input input, .sg-input textarea {
+    width: 80%;
+}
+
+.sg-input textarea {
+    height: 100px;
+}
+
+.sg-input .error, .sg-captcha .error {
+    color: #EE0000;
+}
+
+.sg-form .message.error {
+    color: #c50000;
+    background-color: #fed3c8;
+    border-color: #c50000;
+}
+
+.sg-form .message.success {
+    color: #27a000;
+    background-color: #befeb4;
+    border-color: #27a000;
+}
+
+.sg-form .message {
+    padding: 1em;
+    margin-bottom: 20px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.sg-form .powered-by {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sg-form .powered-by a {
+    font-size: 0.8em;
+}

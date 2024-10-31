@@ -1,0 +1,142 @@
+#icon-salesgoals {
+    background: transparent url(../img/icon-32x32.png) no-repeat 2px 1px;
+}
+
+#titlediv label {
+    position: absolute;
+    color: #bbb;
+    font-size: 1.7em;
+    padding: 8px 10px;
+}
+
+#form-content-holder {
+    padding: 0;
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
+
+#form-content-holder .half-left {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+#form-content-holder .half-right {
+    margin-right: -300px;
+    width: 280px;
+    float: right;
+    padding: 0;
+}
+
+.input label {
+    display: block;
+}
+
+.input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+.input textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    height: 300px;
+}
+
+#field-links a {
+    width: 40%;
+    text-align: center;
+}
+
+.settings-container .half-left {
+    width: 40%;
+    float: left;
+}
+
+.settings-container .half-right {
+    width: 58%;
+    float: right;
+}
+
+.settings-container input[type=checkbox] {
+    margin-top: 5px;
+    width: auto;
+}
+
+.custom-field-dialog input[type=checkbox] {
+    width: auto;
+}
+
+.custom-field-dialog .input label {
+    margin-bottom: 5px;
+}
+
+.custom-field-dialog .input input[type=checkbox] {
+    margin-top: 5px;
+}
+
+.custom-field-dialog .input {
+    width: 260px;
+    float: left;
+    margin-right: 15px;
+}
+
+.custom-field-dialog legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.alert-message {
+    padding: 5px 10px;
+}
+
+.alert-message.warning {
+    background-color: #fff9c0;
+    color: #ed6a31;
+    border: solid 1px #ed6a31;
+}
+
+.alert-message.success {
+    background-color: #bbffc5;
+    color: #08b200;
+    border: solid 1px #08b200;
+    line-height: 24px;
+}
+
+.alert-message {
+    margin-bottom: 10px;
+}
+
+.settings-container .status {
+    margin-bottom: 10px;
+}
+
+#remove-auth-key {
+    float: right;
+}
+
+.sg-checkbox-info {
+    margin-top: 5px;
+    color: #666666;
+    font-style: italic;
+}
+
+#sgcf-recaptcha-private-key, #sgcf-recaptcha-public-key {
+    width: 30em;
+}
+
+#copy-auth-key-spinner {
+    float: left;
+}
+
+.button.left {
+    float: left;
+}
